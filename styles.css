@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+#div-main {
+  height: 100vh;
+  width: 100vw;
+  background: url("./assets//image.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 55%;
+  margin-top: 120px;
+}
+input {
+  height: 50px;
+  width: 80%;
+  border-radius: 15px;
+  border: none;
+  margin-top: 90px;
+  background-color: rgba(20, 15, 38, 0.648579);
+  backdrop-filter: blur(10px);
+  color: white;
+  font-size: 17px;
+  padding-left: 25px;
+}
+#input-password {
+  margin-top: 20px;
+}
+#button-sign {
+  height: 50px;
+  border: none;
+  width: 85%;
+  border-radius: 30px;
+  background-color: #645aff;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 30px;
+  background-image: linear-gradient(#645aff 50%, #50a1ff);
+}
+#button-sign:active {
+  box-shadow: 0 3px black;
+  transform: translateY(4px);
+}
+
+#button-facebook {
+  width: 85%;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: black;
+  opacity: 0.4;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#button-facebook:active {
+  background-color: white;
+  color: black;
+}
+
+#div-links {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+  color: white;
+  opacity: 0.5;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+b {
+  color: white;
+  margin-top: 20px;
+  font-weight: 100;
+}
